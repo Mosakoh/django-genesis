@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from genesis.management.commands.let_there_be_light import Command
+from ...management.commands.let_there_be_light import Command
 from adam.management.commands.adam_bootstrap import MyClass
 
 
