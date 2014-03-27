@@ -5,9 +5,12 @@ env:
   - DJANGO=1.6
 install:
   - pip install -q Django==$DJANGO --use-mirrors
+  - pip install -q coveralls --use-mirrors
   - pip install -q -e . --use-mirrors
 script:
-  - python testapp/manage.py test
+  - coverage run --source=genesis testapp/manage.py test
+after_success:
+  - coveralls
 notifications:
   hipchat:
     rooms:
