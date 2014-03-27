@@ -18,7 +18,7 @@ Overview
 --------
 
  - Management command to run other management commands
- Allows apps to "hook" onto and be run from a central management command
+ - Allows apps to "hook" onto and be run from a central management command
 
 Installation
 ------------
