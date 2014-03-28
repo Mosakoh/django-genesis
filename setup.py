@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 version = "1.0.0"
-readme = open('README.md').read()
+readme = open('README.rst').read()
 
 setup(
     name='django-genesis',
