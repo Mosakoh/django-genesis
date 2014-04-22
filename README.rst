@@ -9,8 +9,6 @@ django-genesis
 
 Allows apps to define management commands that are called from a central management command.  Likely scenarios are post-deploy configurations (insert groups/permissions, compilemessages etc.)
 
-.. image:: http://www.classicrockmagazine.com/wp-content/uploads/2009/10/genesis.jpg
-
 Dependencies
 ------------
 
