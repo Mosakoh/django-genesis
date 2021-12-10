@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'django==1.6',
+        'django>=1.6',
     ],
     zip_safe=False,
     keywords='django-genesis',
@@ -26,6 +26,8 @@ setup(
         'Intended Audience :: Developers',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
     ],
 )
